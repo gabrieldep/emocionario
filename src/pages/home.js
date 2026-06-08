@@ -17,6 +17,9 @@ export async function renderHome(container) {
       Um dicionário de emoções para reconhecer o que sentimos, nomear sentimentos
       e explorar conexões entre eles — com base no livro <cite>Emocionário</cite>.
     </p>
+    <p class="home-intro__link-wrap">
+      <a class="home-intro__link" href="#/sobre">Ler a proposta de leitura e o prefácio</a>
+    </p>
   `;
 
   const searchWrap = document.createElement("div");

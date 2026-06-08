@@ -1,5 +1,89 @@
 [
   {
+    "id": "ternura",
+    "nome": "Ternura",
+    "ilustrador": "Nancy Brajer",
+    "definicao": "Alguns seres despertam a nossa ternura: um cachorrinho, um broto de árvore, um vovozinho…\nTernura é proximidade, afeto e compaixão.\nSentimos ternura por pessoas, seres e objetos indefesos ou que não nos parecem ameaçadores.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Onde está a ternura?",
+        "resposta": "Ela está dentro de nós. Mas são os outros que abrem as portas da nossa ternura. A fragilidade deles nos faz querer ser delicados, atentos e compreensivos.\nA ternura é um convite ao amor."
+      }
+    ],
+    "proxima_emocao": "amor",
+    "antagonista": null
+  },
+  {
+    "id": "amor",
+    "nome": "Amor",
+    "ilustrador": "Maricel Rodríguez Clark",
+    "definicao": "De todas as emoções, o amor talvez seja a mais contraditória. Ele pode provocar em nós um sorriso gigantesco ou uma cachoeira de lágrimas.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Que tipos de amor existem?",
+        "resposta": "– Amor romântico: quando pensamos constantemente em uma pessoa e, no momento em que a encontramos, sentimos um misto de nervosismo e alegria.\n– Amor diligente: quando compartilhamos a alegria e a tristeza da pessoa que amamos e sempre desejamos o melhor para ela. É um sentimento puro e cálido.\nO amor é o oposto do ódio."
+      }
+    ],
+    "proxima_emocao": null,
+    "antagonista": "odio"
+  },
+  {
+    "id": "odio",
+    "nome": "Ódio",
+    "ilustrador": "Nella Gatica",
+    "definicao": "O ódio é uma grande antipatia, um sentimento de aversão por algo ou alguém. Como consequência, ficamos desejando que alguma coisa de ruim aconteça com o objeto de nosso ódio.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Quanto tempo dura o ódio?",
+        "resposta": "Às vezes dura muito. Outras, só um pouquinho. Você pode sentir um ódio momentâneo por uma pessoa, mas isso não significa que tenha deixado de amá-la.\nQuando o ódio motiva nossas ações, nos entregamos à raiva."
+      }
+    ],
+    "proxima_emocao": "raiva",
+    "antagonista": null
+  },
+  {
+    "id": "raiva",
+    "nome": "Raiva",
+    "ilustrador": "Romina Biassoni",
+    "definicao": "Também conhecida como \"ira\", \"cólera\" ou \"fúria\".\nA raiva é passageira: ela nos domina e depois vai embora quase sem percebermos. Em geral, sentimos raiva em situações que consideramos injustas ou que ameaçam o nosso bem-estar.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "A raiva serve para alguma coisa?",
+        "resposta": "A raiva nos avisa que estamos diante de injustiças ou agressões e nos dá a energia necessária para agir. No entanto, ela bloqueia nossa capacidade de pensar com clareza e pode nos fazer reagir como um animal sendo atacado.\nMas como não vivemos entre animais selvagens, essas reações podem nos meter em encrencas. Por isso, é melhor evitar que a raiva assuma o controle nos momentos em que, por exemplo, sentimos um pouquinho de irritação."
+      }
+    ],
+    "proxima_emocao": "irritacao",
+    "antagonista": null
+  },
+  {
+    "id": "irritacao",
+    "nome": "Irritação",
+    "ilustrador": "Cynthia Orensztajn",
+    "definicao": "O mundo está repleto de cores, sons e odores… Uns nos agradam; outros, nem tanto. Alguns nos deixam irritados – nos incomodam de tal forma que invadem a nossa mente e não conseguimos parar de pensar neles.\nO latido de um cachorrinho pode despertar nossa ternura. Mas e se ele ficar latindo o dia inteiro?",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que acontece quando nos irritamos?",
+        "resposta": "Quando alguma coisa nos irrita, não conseguimos parar de prestar atenção nela. Algo incômodo passa a ser irritante quando achamos que não podemos mais suportá-lo.\nUma irritação muito prolongada nos leva à tensão."
+      }
+    ],
+    "proxima_emocao": "tensao",
+    "antagonista": null
+  },
+  {
+    "id": "tensao",
+    "nome": "Tensão",
+    "ilustrador": "Keki un puntito",
+    "definicao": "Algumas pessoas a chamam de \"estresse\".\nA tensão nasce quando enfrentamos situações que consideramos ameaçadoras, como, por exemplo:\n– mudar de casa ou de escola;\n– estar no meio de uma discussão acalorada;\n– não ter estudado a matéria quando o professor começa a nos fazer perguntas.\nTambém podemos ficar tensos ou estressados quando o que queremos fazer está em conflito com os desejos de outra pessoa. Por exemplo, quando você quer dormir e seu vizinho quer tocar bateria.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que acontece quando ficamos tensos?",
+        "resposta": "Ficamos nervosos, impacientes e perdemos a calma com facilidade.\nAo conversar com alguém em quem confiamos sobre o que está nos causando tensão, sentimos um grande alívio."
+      }
+    ],
+    "proxima_emocao": "alivio",
+    "antagonista": null
+  },
+  {
     "id": "alivio",
     "nome": "Alívio",
     "ilustrador": "Nella Gatica",
@@ -170,7 +254,7 @@
   {
     "id": "medo",
     "nome": "Medo",
-    "ilustrador": "Nancy Brajer",
+    "ilustrador": "Patricia Fitti",
     "definicao": "Também conhecido como \"temor\".\nO medo surge quando você acredita que vai sofrer algum tipo de dano.\nQuando o medo aumenta demais, ele se converte em pavor e você perde o controle. O medo pode servir para nos deixar alerta diante do perigo. Já o pavor nos paralisa e nos impede de pensar.",
     "perguntas_reflexivas": [
       {
@@ -184,7 +268,7 @@
   {
     "id": "perplexidade",
     "nome": "Perplexidade",
-    "ilustrador": "Patricia Fitti",
+    "ilustrador": "Alejandra Karageorgiu",
     "definicao": "Também chamado de \"surpresa\" ou \"espanto\".\nFicamos perplexos quando algo que considerávamos impossível se mostra verdadeiro.\nA perplexidade nos indica que o mundo é um lugar a ser descoberto, que há espaço para o desconhecido e para a magia. Ela nos revela que estamos rodeados de pessoas e coisas fascinantes.",
     "perguntas_reflexivas": [
       {
@@ -198,7 +282,7 @@
   {
     "id": "aversao",
     "nome": "Aversão",
-    "ilustrador": "Alejandra Karageorgiu",
+    "ilustrador": "Javier González Burgos",
     "definicao": "É o desprazer que nos causa algo que consideramos repugnante.\nSe perguntar aos seus pais, você vai descobrir que, quando era bebê, fazia coisas que hoje lhe causariam nojo ou aversão. Talvez você tenha comido uma minhoca do jardim. Por isso é interessante se perguntar: \"Será que as coisas são mesmo asquerosas ou foram os meus gostos que mudaram?\"",
     "perguntas_reflexivas": [
       {

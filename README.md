@@ -1,6 +1,6 @@
 # Emocionário
 
-Site psicoeducativo para explorar 36 emoções com base no livro *Emocionário* (Cristina Núñez Pereira e Rafael R. Valcárcel). Conteúdo estático em Vite + JavaScript vanilla, publicado no GitHub Pages.
+Site psicoeducativo para explorar as 42 emoções do livro *Emocionário* (Cristina Núñez Pereira e Rafael R. Valcárcel). Conteúdo estático em Vite + JavaScript vanilla, publicado no GitHub Pages.
 
 ## Desenvolvimento
 
@@ -30,7 +30,7 @@ URL esperada: `https://<usuario>.github.io/emocionario/`
 
 | Pasta | Descrição |
 |-------|-----------|
-| [`data/emocoes.json`](data/emocoes.json) | Conteúdo das 36 emoções |
+| [`data/emocoes.json`](data/emocoes.json) | Conteúdo das 42 emoções |
 | [`img/`](img/) | Ilustrações (`{id}.jpg`) |
 | [`src/`](src/) | Aplicação frontend |
 | [`scripts/`](scripts/) | Geração de dados e extração de imagens do PDF |

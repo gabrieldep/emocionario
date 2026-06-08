@@ -1,6 +1,6 @@
-import { homePath } from "../router.js";
+import { homePath, sobrePath } from "../router.js";
 
-export function renderLayout({ title = "Emocionário" }) {
+export function renderLayout({ active = "home" }) {
   const header = document.createElement("header");
   header.className = "site-header";
 
@@ -18,7 +18,28 @@ export function renderLayout({ title = "Emocionário" }) {
     </span>
   `;
 
-  inner.append(brand);
+  const nav = document.createElement("nav");
+  nav.className = "site-nav";
+  nav.setAttribute("aria-label", "Navegação principal");
+
+  const emocoesLink = document.createElement("a");
+  emocoesLink.href = homePath();
+  emocoesLink.className = "site-nav__link";
+  emocoesLink.textContent = "Emoções";
+  if (active === "home") {
+    emocoesLink.setAttribute("aria-current", "page");
+  }
+
+  const sobreLink = document.createElement("a");
+  sobreLink.href = sobrePath();
+  sobreLink.className = "site-nav__link";
+  sobreLink.textContent = "Sobre o livro";
+  if (active === "sobre") {
+    sobreLink.setAttribute("aria-current", "page");
+  }
+
+  nav.append(emocoesLink, sobreLink);
+  inner.append(brand, nav);
   header.append(inner);
   return header;
 }

@@ -16,6 +16,12 @@ EMOCOES_JSON = ROOT / "data" / "emocoes.json"
 
 # Página do PDF onde começa o texto de cada emoção (mapeamento manual).
 PAGINA_TEXTO: dict[str, int] = {
+    "ternura": 15,
+    "amor": 16,
+    "odio": 17,
+    "raiva": 18,
+    "irritacao": 20,
+    "tensao": 21,
     "alivio": 23,
     "serenidade": 24,
     "felicidade": 25,

@@ -6,6 +6,144 @@ from pathlib import Path
 
 EMOCOES = [
     {
+        "id": "ternura",
+        "nome": "Ternura",
+        "ilustrador": "Nancy Brajer",
+        "definicao": (
+            "Alguns seres despertam a nossa ternura: um cachorrinho, um broto de árvore, um vovozinho…\n"
+            "Ternura é proximidade, afeto e compaixão.\n"
+            "Sentimos ternura por pessoas, seres e objetos indefesos ou que não nos parecem ameaçadores."
+        ),
+        "perguntas_reflexivas": [
+            {
+                "pergunta": "Onde está a ternura?",
+                "resposta": (
+                    "Ela está dentro de nós. Mas são os outros que abrem as portas da nossa ternura. A fragilidade deles nos faz "
+                    "querer ser delicados, atentos e compreensivos.\n"
+                    "A ternura é um convite ao amor."
+                ),
+            }
+        ],
+        "proxima_emocao": "amor",
+        "antagonista": None,
+    },
+    {
+        "id": "amor",
+        "nome": "Amor",
+        "ilustrador": "Maricel Rodríguez Clark",
+        "definicao": (
+            "De todas as emoções, o amor talvez seja a mais contraditória. Ele pode provocar em nós um sorriso gigantesco "
+            "ou uma cachoeira de lágrimas."
+        ),
+        "perguntas_reflexivas": [
+            {
+                "pergunta": "Que tipos de amor existem?",
+                "resposta": (
+                    "– Amor romântico: quando pensamos constantemente em uma pessoa e, no momento em que a encontramos, "
+                    "sentimos um misto de nervosismo e alegria.\n"
+                    "– Amor diligente: quando compartilhamos a alegria e a tristeza da pessoa que amamos e sempre desejamos o "
+                    "melhor para ela. É um sentimento puro e cálido.\n"
+                    "O amor é o oposto do ódio."
+                ),
+            }
+        ],
+        "proxima_emocao": None,
+        "antagonista": "odio",
+    },
+    {
+        "id": "odio",
+        "nome": "Ódio",
+        "ilustrador": "Nella Gatica",
+        "definicao": (
+            "O ódio é uma grande antipatia, um sentimento de aversão por algo ou alguém. Como consequência, ficamos desejando "
+            "que alguma coisa de ruim aconteça com o objeto de nosso ódio."
+        ),
+        "perguntas_reflexivas": [
+            {
+                "pergunta": "Quanto tempo dura o ódio?",
+                "resposta": (
+                    "Às vezes dura muito. Outras, só um pouquinho. Você pode sentir um ódio momentâneo por uma pessoa, mas "
+                    "isso não significa que tenha deixado de amá-la.\n"
+                    "Quando o ódio motiva nossas ações, nos entregamos à raiva."
+                ),
+            }
+        ],
+        "proxima_emocao": "raiva",
+        "antagonista": None,
+    },
+    {
+        "id": "raiva",
+        "nome": "Raiva",
+        "ilustrador": "Romina Biassoni",
+        "definicao": (
+            "Também conhecida como \"ira\", \"cólera\" ou \"fúria\".\n"
+            "A raiva é passageira: ela nos domina e depois vai embora quase sem percebermos. Em geral, sentimos raiva em "
+            "situações que consideramos injustas ou que ameaçam o nosso bem-estar."
+        ),
+        "perguntas_reflexivas": [
+            {
+                "pergunta": "A raiva serve para alguma coisa?",
+                "resposta": (
+                    "A raiva nos avisa que estamos diante de injustiças ou agressões e nos dá a energia necessária para agir. No "
+                    "entanto, ela bloqueia nossa capacidade de pensar com clareza e pode nos fazer reagir como um animal "
+                    "sendo atacado.\n"
+                    "Mas como não vivemos entre animais selvagens, essas reações podem nos meter em encrencas. Por isso, é "
+                    "melhor evitar que a raiva assuma o controle nos momentos em que, por exemplo, sentimos um pouquinho de "
+                    "irritação."
+                ),
+            }
+        ],
+        "proxima_emocao": "irritacao",
+        "antagonista": None,
+    },
+    {
+        "id": "irritacao",
+        "nome": "Irritação",
+        "ilustrador": "Cynthia Orensztajn",
+        "definicao": (
+            "O mundo está repleto de cores, sons e odores… Uns nos agradam; outros, nem tanto. Alguns nos deixam irritados – "
+            "nos incomodam de tal forma que invadem a nossa mente e não conseguimos parar de pensar neles.\n"
+            "O latido de um cachorrinho pode despertar nossa ternura. Mas e se ele ficar latindo o dia inteiro?"
+        ),
+        "perguntas_reflexivas": [
+            {
+                "pergunta": "O que acontece quando nos irritamos?",
+                "resposta": (
+                    "Quando alguma coisa nos irrita, não conseguimos parar de prestar atenção nela. Algo incômodo passa a ser "
+                    "irritante quando achamos que não podemos mais suportá-lo.\n"
+                    "Uma irritação muito prolongada nos leva à tensão."
+                ),
+            }
+        ],
+        "proxima_emocao": "tensao",
+        "antagonista": None,
+    },
+    {
+        "id": "tensao",
+        "nome": "Tensão",
+        "ilustrador": "Keki un puntito",
+        "definicao": (
+            "Algumas pessoas a chamam de \"estresse\".\n"
+            "A tensão nasce quando enfrentamos situações que consideramos ameaçadoras, como, por exemplo:\n"
+            "– mudar de casa ou de escola;\n"
+            "– estar no meio de uma discussão acalorada;\n"
+            "– não ter estudado a matéria quando o professor começa a nos fazer perguntas.\n"
+            "Também podemos ficar tensos ou estressados quando o que queremos fazer está em conflito com os desejos de "
+            "outra pessoa. Por exemplo, quando você quer dormir e seu vizinho quer tocar bateria."
+        ),
+        "perguntas_reflexivas": [
+            {
+                "pergunta": "O que acontece quando ficamos tensos?",
+                "resposta": (
+                    "Ficamos nervosos, impacientes e perdemos a calma com facilidade.\n"
+                    "Ao conversar com alguém em quem confiamos sobre o que está nos causando tensão, sentimos um grande alívio."
+                ),
+            }
+        ],
+        "proxima_emocao": "alivio",
+        "antagonista": None,
+    },
+    {
         "id": "alivio",
         "nome": "Alívio",
         "ilustrador": "Nella Gatica",
@@ -282,7 +420,7 @@ EMOCOES = [
     {
         "id": "medo",
         "nome": "Medo",
-        "ilustrador": "Nancy Brajer",
+        "ilustrador": "Patricia Fitti",
         "definicao": (
             "Também conhecido como \"temor\".\n"
             "O medo surge quando você acredita que vai sofrer algum tipo de dano.\n"
@@ -305,7 +443,7 @@ EMOCOES = [
     {
         "id": "perplexidade",
         "nome": "Perplexidade",
-        "ilustrador": "Patricia Fitti",
+        "ilustrador": "Alejandra Karageorgiu",
         "definicao": (
             "Também chamado de \"surpresa\" ou \"espanto\".\n"
             "Ficamos perplexos quando algo que considerávamos impossível se mostra verdadeiro.\n"
@@ -328,7 +466,7 @@ EMOCOES = [
     {
         "id": "aversao",
         "nome": "Aversão",
-        "ilustrador": "Alejandra Karageorgiu",
+        "ilustrador": "Javier González Burgos",
         "definicao": (
             "É o desprazer que nos causa algo que consideramos repugnante.\n"
             "Se perguntar aos seus pais, você vai descobrir que, quando era bebê, fazia coisas que hoje lhe causariam nojo ou "
@@ -832,6 +970,7 @@ EMOCOES = [
 ]
 
 EXPECTED_IDS = [
+    "ternura", "amor", "odio", "raiva", "irritacao", "tensao",
     "alivio", "serenidade", "felicidade", "alegria", "tristeza", "compaixao",
     "remorso", "culpa", "vergonha", "inseguranca", "timidez", "confusao", "medo",
     "perplexidade", "aversao", "hostilidade", "aceitacao", "incompreensao",

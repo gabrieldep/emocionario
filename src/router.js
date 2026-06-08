@@ -1,10 +1,12 @@
 import { renderHome } from "./pages/home.js";
 import { renderEmocao } from "./pages/emocao.js";
+import { renderSobre } from "./pages/sobre.js";
 import { getById } from "./data/emocoes.js";
 
 const routes = {
   home: renderHome,
   emocao: renderEmocao,
+  sobre: renderSobre,
 };
 
 function parseHash() {
@@ -17,6 +19,10 @@ function parseHash() {
 
   if (parts[0] === "emocao" && parts[1]) {
     return { name: "emocao", params: { id: parts[1] } };
+  }
+
+  if (parts[0] === "sobre") {
+    return { name: "sobre", params: {} };
   }
 
   return { name: "home", params: {} };
@@ -32,6 +38,10 @@ export function emocaoPath(id) {
 
 export function homePath() {
   return "#/";
+}
+
+export function sobrePath() {
+  return "#/sobre";
 }
 
 export function initRouter(app) {
@@ -51,7 +61,9 @@ export function initRouter(app) {
     document.title =
       route.name === "emocao"
         ? `${getById(route.params.id).nome} — Emocionário`
-        : "Emocionário";
+        : route.name === "sobre"
+          ? "Sobre o livro — Emocionário"
+          : "Emocionário";
 
     const conteudo = app.querySelector("#conteudo");
     if (conteudo && !isInitialLoad) {
