@@ -1,0 +1,506 @@
+[
+  {
+    "id": "alivio",
+    "nome": "Alívio",
+    "ilustrador": "Nella Gatica",
+    "definicao": "Experimentamos a sensação de alívio quando nos livramos de um peso, quando deixamos de nos sentir ameaçados ou quando pedimos desculpas. Por exemplo, você se sente aliviado ao terminar uma prova, ao ver que algum perigo já passou ou ao reconhecer um erro.\nO alívio significa que uma sensação ou situação desagradável ficou para trás.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Como sabemos que estamos aliviados?",
+        "resposta": "O alívio costuma vir acompanhado de um relaxamento. Depois que as dificuldades já passaram, voltamos a nos sentir tranquilos e em paz. Esse é o caminho em direção à serenidade."
+      }
+    ],
+    "proxima_emocao": "serenidade",
+    "antagonista": null
+  },
+  {
+    "id": "serenidade",
+    "nome": "Serenidade",
+    "ilustrador": "Gabriela Thiery",
+    "definicao": "A serenidade é uma sensação de calma e harmonia. Ela nasce no fundo do seu ser, mas costuma se manifestar no olhar.\nUma pessoa serena é tranquila, delicada e sempre pede o que deseja com amabilidade e doçura.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "A serenidade ilumina a mente?",
+        "resposta": "Sim. Ela proporciona uma forma especial de enxergar as coisas. É como um superpoder que lhe permite ver os acontecimentos com mais clareza. Graças a ela você consegue, por exemplo, perceber que algo que o deixou com raiva não era tão grave assim.\nA propósito, a serenidade pode ser exercitada como se fosse um músculo. Treiná-la ajuda você a despertar para a felicidade."
+      }
+    ],
+    "proxima_emocao": "felicidade",
+    "antagonista": null
+  },
+  {
+    "id": "felicidade",
+    "nome": "Felicidade",
+    "ilustrador": "Tofi",
+    "definicao": "A felicidade é diferente para cada pessoa. Ficamos felizes quando usamos nossos talentos e habilidades para realizar coisas em que somos bons ou que gostamos de fazer.\nA felicidade é uma sensação de satisfação com a pessoa que você é. Não a confunda com a alegria.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que pode nos trazer felicidade?",
+        "resposta": "Plantar uma árvore, completar um quebra-cabeça, assar um bolo, montar um móvel, escrever um poema, resolver problemas de matemática… Muitas atividades podem deixá-lo feliz se você as encarar como uma oportunidade para curtir o que está fazendo."
+      }
+    ],
+    "proxima_emocao": null,
+    "antagonista": null
+  },
+  {
+    "id": "alegria",
+    "nome": "Alegria",
+    "ilustrador": "Bela Oviedo",
+    "definicao": "Alguns a chamam de \"deleite\" ou \"contentamento\".\nA alegria é causada por algo prazeroso e, por isso, é especialmente agradável.\nO que a difere da felicidade é que a alegria dura pouco. Mesmo assim, as pessoas podem ter muitos momentos alegres durante o dia.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que acontece nesses momentos?",
+        "resposta": "Somos invadidos por um entusiasmo divertido. Nossa energia aumenta e pensamos de maneira mais positiva.\nO contrário da alegria é a tristeza."
+      }
+    ],
+    "proxima_emocao": null,
+    "antagonista": "tristeza"
+  },
+  {
+    "id": "tristeza",
+    "nome": "Tristeza",
+    "ilustrador": "Javier González Burgos",
+    "definicao": "A tristeza é a diminuição geral de nossa energia e de nosso estado de ânimo. Quando estamos tristes, perdemos o apetite, as forças, o desejo, a motivação, a vontade de viver.\nA tristeza é como um véu que envolve a nossa vida e a torna cinzenta.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que causa tristeza?",
+        "resposta": "As pessoas não ficam tristes pelos mesmos motivos. Porém, é comum sentir tristeza quando nos decepcionamos ou perdemos algo que era importante para nós. Imagine que você precise se mudar para outra cidade. É provável que a perspectiva de novidade até desperte a sua curiosidade, mas você sentirá tristeza pelos amigos que vai deixar para trás.\nA tristeza é uma das faces da compaixão."
+      }
+    ],
+    "proxima_emocao": "compaixao",
+    "antagonista": null
+  },
+  {
+    "id": "compaixao",
+    "nome": "Compaixão",
+    "ilustrador": "Nancy Brajer",
+    "definicao": "Há quem a chame de \"piedade\", \"empatia\" ou \"comiseração\".\nCompaixão é o pesar que sentimos pelo infortúnio de alguém.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que a compaixão nos motiva a fazer?",
+        "resposta": "Ela nos motiva a ajudar quem está sofrendo, seja um parente ou um desconhecido. Pode ser despertada até mesmo por um personagem fictício, como uma raposa que perdeu toda a família. A compaixão provoca em nós o desejo de abraçar o outro e aliviar sua tristeza.\nSe alguém está se sentindo triste e não o ajudamos, é muito provável que entremos no território do remorso."
+      }
+    ],
+    "proxima_emocao": "remorso",
+    "antagonista": null
+  },
+  {
+    "id": "remorso",
+    "nome": "Remorso",
+    "ilustrador": "Federico Combi",
+    "definicao": "Algumas pessoas o confundem com o arrependimento. O arrependimento é o mal-estar que às vezes sentimos depois de praticar alguma ação, seja ela boa ou má. Já o remorso surge apenas quando fizemos algo que sabemos que é errado.\nPor exemplo, você pode se arrepender de ter recusado o chocolate que seu irmão lhe ofereceu. Mas com certeza sentiria remorso se comesse alguns pedaços escondido.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Como o remorso funciona?",
+        "resposta": "De forma simples, mas contundente: ele não nos deixa pensar em nada além daquilo que fizemos de errado. Começa com um pequeno desconforto que pouco a pouco vai crescendo dentro de nós.\nEsse mal-estar que fica nos remoendo é a culpa."
+      }
+    ],
+    "proxima_emocao": "culpa",
+    "antagonista": null
+  },
+  {
+    "id": "culpa",
+    "nome": "Culpa",
+    "ilustrador": "Virginia Piñón",
+    "definicao": "A culpa nos invade quando acreditamos ter feito alguma coisa ruim. É o termômetro das nossas ações – ela nos ajuda a definir o que consideramos certo ou errado. Além disso, ela nos permite avaliar o nosso comportamento.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Podemos ouvir a culpa?",
+        "resposta": "Quando você faz algo que sabe que não é certo, uma voz interior fala com você. Escute o que ela diz, pois essa voz é a sua consciência questionando se você agiu da maneira correta. No fundo, você sabe o que considera apropriado ou não, mesmo que às vezes não queira admitir.\nA culpa mostra que somos responsáveis pelas nossas ações e nos torna capazes de julgá-las. Se chegarmos à conclusão de que fizemos algo de errado, provavelmente sentiremos vergonha."
+      }
+    ],
+    "proxima_emocao": "vergonha",
+    "antagonista": null
+  },
+  {
+    "id": "vergonha",
+    "nome": "Vergonha",
+    "ilustrador": "Nella Gatica",
+    "definicao": "A vergonha aparece de surpresa. Costumamos senti-la quando sabemos que fizemos algo de errado ou quando achamos que vão zombar da gente.\nPode parecer estranho, mas também podemos sentir vergonha por algo que outra pessoa fez.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "É possível esconder a vergonha?",
+        "resposta": "Não. Infelizmente a vergonha é muito indiscreta. Ela tem a mania de contar a todo mundo que você sabe que não agiu bem ou que não está à vontade, fazendo com que a sua cara fique vermelha.\nO fato de todos saberem que você está envergonhado pode provocar insegurança."
+      }
+    ],
+    "proxima_emocao": "inseguranca",
+    "antagonista": null
+  },
+  {
+    "id": "inseguranca",
+    "nome": "Insegurança",
+    "ilustrador": "Virginia Piñón",
+    "definicao": "A insegurança é a falta de confiança. Pode nos faltar confiança tanto em nós mesmos quanto nos outros.\nImagine que você está a bordo de um veleiro e o mar está muito agitado. Se não se considerar um bom nadador, se sentirá inseguro. Se não confiar no capitão do barco, também.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que acontece quando nos sentimos inseguros?",
+        "resposta": "Quando ficamos inseguros, adotamos mecanismos de defesa. Se você não estiver seguro de sua capacidade para nadar, poderá entrar em pânico (embora essa reação não ajude em nada). Se não confiar num amigo, terá vontade de afastá-lo para se sentir a salvo.\nÀs vezes, por insegurança, agimos com timidez."
+      }
+    ],
+    "proxima_emocao": "timidez",
+    "antagonista": null
+  },
+  {
+    "id": "timidez",
+    "nome": "Timidez",
+    "ilustrador": "Alejandra Karageorgiu",
+    "definicao": "A timidez é um bloqueio que nos impede de nos comportarmos com naturalidade. Ela costuma nos dominar diante de pessoas desconhecidas, pouco confiáveis ou ameaçadoras.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que uma pessoa tímida sente?",
+        "resposta": "Uma pessoa tímida se sente desconfortável e desajeitada. Então, por medo de fazer algo errado, não diz nada, fica quieta e tenta passar despercebida.\nImagine que você tenha que passar a noite na casa de vizinhos idosos. Ainda que eles sejam carinhosos, é possível que você fique calado no canto do sofá, pouco à vontade. Você pode até mesmo ser tomado por uma sensação de confusão."
+      }
+    ],
+    "proxima_emocao": "confusao",
+    "antagonista": null
+  },
+  {
+    "id": "confusao",
+    "nome": "Confusão",
+    "ilustrador": "Adriana Keselman",
+    "definicao": "A confusão é uma mistura de sentimentos. Imagine que o seu gatinho fez xixi no seu brinquedo favorito: talvez você tenha raiva, mas também sinta ternura.\nExperimentamos confusão diante da desordem ou de algo que não conseguimos entender completamente. E isso nos paralisa. Às vezes podemos sentir admiração e tristeza, prazer e inveja, tudo ao mesmo tempo.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Como saber se estamos confusos?",
+        "resposta": "Quando estiver confuso, você não vai saber ao certo o que está sentindo. Mas fique tranquilo, pois isso acontece com todo mundo. Tente descobrir quais emoções estão presentes no momento.\nA confusão, imprevisível e caótica, pode levar ao medo."
+      }
+    ],
+    "proxima_emocao": "medo",
+    "antagonista": null
+  },
+  {
+    "id": "medo",
+    "nome": "Medo",
+    "ilustrador": "Nancy Brajer",
+    "definicao": "Também conhecido como \"temor\".\nO medo surge quando você acredita que vai sofrer algum tipo de dano.\nQuando o medo aumenta demais, ele se converte em pavor e você perde o controle. O medo pode servir para nos deixar alerta diante do perigo. Já o pavor nos paralisa e nos impede de pensar.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que acontece quando sentimos medo?",
+        "resposta": "Os olhos ficam maiores para podermos ver melhor. Além disso, o coração bombeia mais sangue para as pernas para podermos fugir, como se estivéssemos sendo perseguidos por um dragão.\nNormalmente o desconhecido nos causa medo, mas também pode causar perplexidade."
+      }
+    ],
+    "proxima_emocao": "perplexidade",
+    "antagonista": null
+  },
+  {
+    "id": "perplexidade",
+    "nome": "Perplexidade",
+    "ilustrador": "Patricia Fitti",
+    "definicao": "Também chamado de \"surpresa\" ou \"espanto\".\nFicamos perplexos quando algo que considerávamos impossível se mostra verdadeiro.\nA perplexidade nos indica que o mundo é um lugar a ser descoberto, que há espaço para o desconhecido e para a magia. Ela nos revela que estamos rodeados de pessoas e coisas fascinantes.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "De onde vem a perplexidade?",
+        "resposta": "A perplexidade vem da inocência e da curiosidade. Quando você está perplexo, é porque acreditava que algo não fosse possível. Então logo percebe que estava errado, fica maravilhado e se pergunta: \"Mas como…?\"\nQuando vem acompanhada de uma sensação de repulsa, a perplexidade pode se converter em aversão."
+      }
+    ],
+    "proxima_emocao": "aversao",
+    "antagonista": null
+  },
+  {
+    "id": "aversao",
+    "nome": "Aversão",
+    "ilustrador": "Alejandra Karageorgiu",
+    "definicao": "É o desprazer que nos causa algo que consideramos repugnante.\nSe perguntar aos seus pais, você vai descobrir que, quando era bebê, fazia coisas que hoje lhe causariam nojo ou aversão. Talvez você tenha comido uma minhoca do jardim. Por isso é interessante se perguntar: \"Será que as coisas são mesmo asquerosas ou foram os meus gostos que mudaram?\"",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Todo mundo sente aversão pelas mesmas coisas?",
+        "resposta": "Sim e não. Algumas coisas são asquerosas para qualquer um. E esse sentimento é muito útil, pois nos mantém afastados de substâncias que podem nos fazer mal. Por outro lado, alguns costumes que parecem repugnantes para uma família ou uma cultura são considerados normais em outra.\nImagine que uma família de outra cultura o convidou para jantar. Para mostrar quanto gostam de você, lhe oferecem seu prato mais saboroso: salada de insetos. Manifestar sua aversão nessa circunstância pode despertar nos anfitriões um sentimento de hostilidade."
+      }
+    ],
+    "proxima_emocao": "hostilidade",
+    "antagonista": null
+  },
+  {
+    "id": "hostilidade",
+    "nome": "Hostilidade",
+    "ilustrador": "Luciana Feito",
+    "definicao": "Sentimos hostilidade quando alguém se opõe a nós ou a nossos desejos. Por exemplo: você deseja sair para brincar no parque, mas seus pais não deixam.\nQuando sentimos hostilidade, tendemos a ser do contra e a discordar de tudo o que o outro fala. Se nos dizem \"branco\", dizemos \"preto\". Se nos dizem \"adoro abacaxi\", dizemos \"detesto abacaxi\".",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Aonde a hostilidade nos leva?",
+        "resposta": "A hostilidade nos leva a rejeitar o outro; desejamos incomodá-lo, atacá-lo, perturbá-lo…\nSe, em vez de sermos hostis com uma pessoa, nós a acolhemos em nossa vida, estamos desenvolvendo a aceitação."
+      }
+    ],
+    "proxima_emocao": "aceitacao",
+    "antagonista": null
+  },
+  {
+    "id": "aceitacao",
+    "nome": "Aceitação",
+    "ilustrador": "Josefina Wolf",
+    "definicao": "Nós nos sentimos aceitos quando percebemos que as pessoas gostam de nós do jeito que somos – com nossas virtudes e com tudo aquilo que ainda precisamos melhorar.\nTambém sentimos isso quando os outros reconhecem e valorizam nossas capacidades e ações.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Quais gestos transmitem aceitação?",
+        "resposta": "Aplausos, palavras acolhedoras, um sorriso, um abraço ou qualquer outro gesto cuja finalidade seja demonstrar admiração.\nA falta de aceitação faz com que nos sintamos vítimas da incompreensão."
+      }
+    ],
+    "proxima_emocao": "incompreensao",
+    "antagonista": null
+  },
+  {
+    "id": "incompreensao",
+    "nome": "Incompreensão",
+    "ilustrador": "Federico Combi",
+    "definicao": "A incompreensão nasce da falta de entendimento com o outro. Tentamos explicar algo que estamos sentindo ou pensando, mas a pessoa a quem nos dirigimos não nos entende.\nÀs vezes, nos sentimos incompreendidos porque nossos atos não estão de acordo com a opinião dos outros. Não se preocupe. Pense em Leonardo da Vinci e em muitos outros gênios: eles tiveram que enfrentar a incompreensão, pois suas ideias não se encaixavam na época em que viviam.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Como surge a incompreensão?",
+        "resposta": "A incompreensão surge de um desajuste entre a forma como você enxerga o mundo e a maneira como as outras pessoas o veem. É uma mistura de frustração e desamparo."
+      }
+    ],
+    "proxima_emocao": "desamparo",
+    "antagonista": null
+  },
+  {
+    "id": "desamparo",
+    "nome": "Desamparo",
+    "ilustrador": "Javier González Burgos",
+    "definicao": "O desamparo nos invade quando nos sentimos desprotegidos ou achamos que não podemos contar com o apoio de ninguém.\nÉ uma sensação de pesar e tristeza.\nAcontece, por exemplo, se os seus amigos não ficam do seu lado ou o abandonam.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que pensamos quando ficamos desamparados?",
+        "resposta": "Pensamos que, se pedirmos ajuda, ninguém virá em nosso socorro.\nPodemos estar rodeados de gente, mas se não tivermos o amparo de alguém, acabamos sentindo solidão."
+      }
+    ],
+    "proxima_emocao": "solidao",
+    "antagonista": null
+  },
+  {
+    "id": "solidao",
+    "nome": "Solidão",
+    "ilustrador": "Jazmín Varela",
+    "definicao": "A solidão é a ausência de companhia. Ela pode ser muito útil – por exemplo, quando não queremos ser incomodados. Mas também pode ser angustiante se acreditamos não ter a quem recorrer nem com quem dividir as coisas.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "É possível se sentir solitário estando na companhia de outras pessoas?",
+        "resposta": "Sim, quando não podemos contar com as pessoas que nos rodeiam ou quando nos deixam de lado. Imagine que seus amigos estão conversando sobre um filme que só você não viu. Se não puder participar do papo, pode ser que se sinta sozinho.\nPara vencer a solidão é muito importante se comunicar. Se você sente falta dos momentos em que não estava sozinho, está sentindo saudade."
+      }
+    ],
+    "proxima_emocao": "saudade",
+    "antagonista": null
+  },
+  {
+    "id": "saudade",
+    "nome": "Saudade",
+    "ilustrador": "Elissambura",
+    "definicao": "A saudade cria um vazio em nosso coração e, quase ao mesmo tempo, o enche com gotinhas de pesar.\nQuando sentimos saudade, parece que nos falta algo ou alguém: um amigo, um familiar, um lugar, um objeto. E essa ausência nos entristece.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Como identificar a saudade?",
+        "resposta": "Se você fica triste ao recordar de algo, está sentindo saudade.\nQuando a saudade se torna parte do seu dia a dia, você acaba se tornando prisioneiro da melancolia."
+      }
+    ],
+    "proxima_emocao": "melancolia",
+    "antagonista": null
+  },
+  {
+    "id": "melancolia",
+    "nome": "Melancolia",
+    "ilustrador": "Federico Combi",
+    "definicao": "A melancolia é uma forma acentuada de saudade ou nostalgia. Quando estamos melancólicos, sentimos que o mundo em que desejamos viver é um lugar muito distante e difícil de alcançar.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Quando a melancolia aparece?",
+        "resposta": "A melancolia pode nos dominar nos períodos de mudança. Nesses momentos, vemos com resignação ou tristeza que uma diversão ou um momento agradável está prestes a terminar. Muitas pessoas se sentem assim numa tarde de domingo, pois sabem que o fim de semana está acabando.\nO lado bom da melancolia é quando você se permite saboreá-la, sem ter que fazer mais nada. Mas se esse prazer evapora, surge o tédio."
+      }
+    ],
+    "proxima_emocao": "tedio",
+    "antagonista": null
+  },
+  {
+    "id": "tedio",
+    "nome": "Tédio",
+    "ilustrador": "Nella Gatica",
+    "definicao": "Também chamado de \"apatia\" ou \"desânimo\".\nO tédio é uma mistura de aborrecimento e cansaço que surge quando não estamos fazendo nada ou quando o que fazemos não nos satisfaz.\nÉ um parasita que devora nossa capacidade de estar numa boa.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que o tédio tem a ver com o tempo?",
+        "resposta": "Quando estamos entediados, o tempo parece passar mais devagar e se estiiiiiiiiiica.\nUm antídoto contra o tédio é bolar ideias que nos despertem a expectativa."
+      }
+    ],
+    "proxima_emocao": "expectativa",
+    "antagonista": null
+  },
+  {
+    "id": "expectativa",
+    "nome": "Expectativa",
+    "ilustrador": "Bela Oviedo",
+    "definicao": "A expectativa é a esperança de que algo que desejamos aconteça. Ter expectativa é uma das melhores maneiras de curtir a vida e fazer as coisas com energia.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "As coisas naturalmente despertam expectativa ou somos nós que a criamos?",
+        "resposta": "Podemos ter expectativa em relação a quase tudo: a ter um irmãozinho, a comemorar nosso aniversário, a ir para a escola, a sair para brincar com os amigos… A expectativa é um ingrediente que dá sabor à vida.\nFicar na expectativa desperta o entusiasmo."
+      }
+    ],
+    "proxima_emocao": "entusiasmo",
+    "antagonista": null
+  },
+  {
+    "id": "entusiasmo",
+    "nome": "Entusiasmo",
+    "ilustrador": "Paola De Gaudio",
+    "definicao": "O entusiasmo é o despertar de um deus que existe dentro de nós. Quando nos deixamos levar por ele, nos sentimos poderosos, capazes de qualquer coisa.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Como é o entusiasmo?",
+        "resposta": "O entusiasmo parece uma música porque, quando sentimos essa emoção, nosso corpo ganha um ritmo especial.\nTente escutar a canção do entusiasmo dentro de você: o ritmo começa no coração, vai ganhando força pouco a pouco, sobe pelos braços, desce pelas pernas… É uma energia que nasce no seu interior e o impele a agir.\nInspirados por essa música, facilmente chegamos à euforia."
+      }
+    ],
+    "proxima_emocao": "euforia",
+    "antagonista": null
+  },
+  {
+    "id": "euforia",
+    "nome": "Euforia",
+    "ilustrador": "Anita Morra",
+    "definicao": "A euforia é um transbordamento de energia positiva. Ela nos dá força para enfrentar os momentos de adversidade ou para festejar com um entusiasmo maior do que o normal.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que caracteriza a euforia?",
+        "resposta": "A euforia é uma sensação de extraordinário bem-estar. Por causa dela nos sentimos otimistas e acreditamos que podemos superar qualquer desafio.\nÉ o oposto do desalento."
+      }
+    ],
+    "proxima_emocao": null,
+    "antagonista": "desalento"
+  },
+  {
+    "id": "desalento",
+    "nome": "Desalento",
+    "ilustrador": "Gabriela Thiery",
+    "definicao": "Sentimos desalento quando nos falta ânimo para seguir adiante; quando percebemos nosso cansaço e achamos que alcançar nossas metas não será assim tão fácil.\nImagine que você está num bosque e quer voltar para casa. Você toma um caminho, porém percebe que não é o mais adequado. Volta ao ponto de partida. Procura uma nova trilha. Mas também não é essa. Você insiste. E mais uma vez se engana. Na quarta tentativa, percebe que as forças começam a faltar e desanima. Isso é desalento.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que acontece quando surge o desalento?",
+        "resposta": "À medida que o desalento se aproxima, a nossa meta vai ficando mais distante.\nQuando o desalento nos vence e nos rendemos, abrimos caminho para a decepção."
+      }
+    ],
+    "proxima_emocao": "decepcao",
+    "antagonista": null
+  },
+  {
+    "id": "decepcao",
+    "nome": "Decepção",
+    "ilustrador": "Javier González Burgos",
+    "definicao": "É o pesar que nos invade quando descobrimos que aquilo em que acreditávamos não é verdade.\nTambém ficamos decepcionados quando desmorona a esperança que havíamos depositado em algo ou alguém.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "É possível nunca se decepcionar?",
+        "resposta": "Isso só poderia acontecer se você já soubesse tudo. Tudo mesmo: desde quantas vezes a sua mãe vai sorrir de manhã até o tamanho exato do Universo. E se você pode se surpreender, também pode se decepcionar. Essas duas emoções significam que algo não é como você pensava ou desejava. No caso da decepção, esse desajuste nos contraria. Mas não há por que desanimar: essas experiências nos ajudam a crescer.\nComo você viu, é praticamente impossível escapar da decepção. Mas você pode evitar cair na frustração."
+      }
+    ],
+    "proxima_emocao": "frustracao",
+    "antagonista": null
+  },
+  {
+    "id": "frustracao",
+    "nome": "Frustração",
+    "ilustrador": "Federico Combi",
+    "definicao": "É o mal-estar e o aborrecimento que nascem quando você não consegue fazer algo que desejava ou quando as coisas não acontecem como você esperava.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "O que costuma nos trazer frustração?",
+        "resposta": "– Nossas próprias limitações, como não ter idade suficiente para participar de uma competição.\n– As limitações ou decisões de outra pessoa, como quando você não pode ir a uma atividade extraclasse divertida porque ela foi cancelada.\n– As condições do clima, como uma tempestade de verão que o impede de curtir a praia.\nDiante da mesma situação, algumas pessoas ficam frustradas, outras procuram uma solução. Essas últimas despertam a nossa admiração."
+      }
+    ],
+    "proxima_emocao": "admiracao",
+    "antagonista": null
+  },
+  {
+    "id": "admiracao",
+    "nome": "Admiração",
+    "ilustrador": "María Lavezzi",
+    "definicao": "A admiração é o apreço e o respeito que sentimos por alguém que tem grandes qualidades ou que tenha feito algo fora do comum.\nPor exemplo:\n– uma atleta que constantemente supera a si mesma;\n– um explorador que desbrava uma floresta desconhecida;\n– uma amiga que desenha especialmente bem.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Todo mundo tem algo digno de admiração?",
+        "resposta": "Sim, mas é preciso saber enxergar. Algumas pessoas possuem qualidades que nós não temos ou são capazes de fazer coisas que não conseguimos. Por isso as admiramos.\nE, para admirar alguém, temos que estar cientes das nossas limitações. Mas se essas limitações nos entristecem e nos impedem de valorizar os outros, surge a inveja."
+      }
+    ],
+    "proxima_emocao": "inveja",
+    "antagonista": null
+  },
+  {
+    "id": "inveja",
+    "nome": "Inveja",
+    "ilustrador": "Cynthia Orensztajn",
+    "definicao": "Alguns dizem que a inveja e o ciúme são a mesma coisa. Mas isso não é verdade – ainda que ambas as emoções andem lado a lado, misturando-se e estimulando-se mutuamente. São parasitas que devoram a sua alegria. O que elas querem não é que você se dê bem, mas que os outros se deem mal.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Qual a diferença entre a inveja e o ciúme?",
+        "resposta": "O ciúme é a dificuldade de compartilhar aquilo que consideramos nosso, como o amor de alguém querido.\nA inveja, ao contrário, não diz respeito a algo que você tenha, mas a algo que o outro tem: é a tristeza que se sente quando alguém possui o objeto do seu desejo."
+      }
+    ],
+    "proxima_emocao": null,
+    "antagonista": null
+  },
+  {
+    "id": "desejo",
+    "nome": "Desejo",
+    "ilustrador": "Luciana Feito",
+    "definicao": "O desejo é um impulso que nos move na direção de algo que queremos. Desejamos o que não temos, e isso nos incentiva a tentar consegui-lo. O desejo é o que motiva nossos atos.\nPodemos desejar coisas muito variadas: ter mais idade, aprender a nadar, passear com nossos avós, ser bombeiro, etc.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Todos os desejos são iguais?",
+        "resposta": "Não. Existem desejos muito fortes e profundos: por exemplo, você deseja ser médico e estuda muito tempo para isso. E existem desejos mais impulsivos, fugazes: os caprichos. Por exemplo, você vê a foto de uma ceia de Natal e de repente fica com vontade de comer rabanada.\nRealizar um desejo nos traz satisfação."
+      }
+    ],
+    "proxima_emocao": "satisfacao",
+    "antagonista": null
+  },
+  {
+    "id": "satisfacao",
+    "nome": "Satisfação",
+    "ilustrador": "Tofi",
+    "definicao": "Saciar uma necessidade produz satisfação. Essa necessidade pode ser física ou emocional, como matar a fome ou pintar um quadro. E quando comemos ou terminamos a pintura, nos sentimos satisfeitos.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "A satisfação aumenta a sua confiança?",
+        "resposta": "Sim. Ela aumenta a sua autoconfiança, especialmente quando é resultado de suas próprias habilidades ou de seu comportamento. Você se sente duplamente satisfeito, por exemplo, quando sacia a sua fome comendo uma fruta que ajudou a cultivar.\nPodemos experimentar a satisfação até mesmo nas derrotas. É uma grande realização quando conseguimos melhorar nossos resultados, ainda que tenhamos perdido a competição. A melhora constante nos enche de orgulho."
+      }
+    ],
+    "proxima_emocao": "orgulho",
+    "antagonista": null
+  },
+  {
+    "id": "orgulho",
+    "nome": "Orgulho",
+    "ilustrador": "Keki un puntito",
+    "definicao": "O orgulho é a atribuição de um valor muito alto a alguma coisa, a alguém ou a si mesmo.\nO orgulho que você sente por quem você é ou pelo que faz pode beneficiá-lo ou prejudicá-lo.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Que tipos de orgulho pessoal existem?",
+        "resposta": "– Orgulho egocêntrico: faz com que os seus objetivos se reduzam a um só – ser o centro das atenções. A consequência disso é que você pode se tornar pedante, soberbo ou arrogante.\n– Orgulho virtuoso: faz com que sua meta principal seja conseguir fazer sempre o melhor com o que tem nas mãos. Ele lhe permite descobrir e valorizar as suas qualidades, o que pode ajudá-lo a enfrentar grandes desafios.\nSuperar a si mesmo lhe causa prazer."
+      }
+    ],
+    "proxima_emocao": "prazer",
+    "antagonista": null
+  },
+  {
+    "id": "prazer",
+    "nome": "Prazer",
+    "ilustrador": "Luciana Feito",
+    "definicao": "O prazer é a satisfação e a alegria produzidas por algo de que gostamos muito.\nPodemos encontrar prazer em atividades muito diferentes: fantasiar outros mundos, olhar coisas bonitas, resolver problemas difíceis, brincar, sentir-se amado.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "Como podemos apreciar o prazer?",
+        "resposta": "Para sentir prazer, você precisa estar atento ao que acontece. Imagine que há um copo de suco à sua frente. Você pode bebê-lo rapidamente só para matar a sede ou se concentrar no sabor e aproveitá-lo sem pressa, sentindo o prazer que ele lhe proporciona.\nUma vida repleta de prazer nos faz sentir gratidão."
+      }
+    ],
+    "proxima_emocao": "gratidao",
+    "antagonista": null
+  },
+  {
+    "id": "gratidao",
+    "nome": "Gratidão",
+    "ilustrador": "Nancy Brajer",
+    "definicao": "A gratidão é a alma da palavra \"agradecer\". Ela se multiplica quando você é capaz de ver os presentes que o dia a dia oferece: o sorriso de um amigo, uma canção bonita, uma comida gostosa…\nA gratidão nos ensina a aproveitar melhor a vida. É a porta de entrada para a felicidade.\nQuando eu tinha 10 anos, minha avó me deu um \"diário da gratidão\" e disse ao meu ouvido:\n– Eu tenho um igualzinho. Toda noite, escrevo nele coisas que me fazem sentir agradecida. Depois, quando o coloco embaixo do travesseiro, algo maravilhoso acontece: o conteúdo do diário entra nos meus sonhos e transforma o meu mundo no Palácio da Felicidade… e essa alegria me acompanha durante todo o dia seguinte.",
+    "perguntas_reflexivas": [
+      {
+        "pergunta": "A quem agradecer agora?",
+        "resposta": "– Às pessoas que colocaram sua magia nestas páginas e ilustraram o livro.\n– À pessoa que o comprou e o deu de presente a você.\n– E, especialmente, a você, por dividir com a gente este emocionário."
+      }
+    ],
+    "proxima_emocao": null,
+    "antagonista": null
+  }
+]
