@@ -1,47 +1,75 @@
 # Emocionário
 
-Site psicoeducativo para explorar as 42 emoções do livro *Emocionário* (Cristina Núñez Pereira e Rafael R. Valcárcel). Conteúdo estático em Vite + JavaScript vanilla, publicado no GitHub Pages.
+Site psicoeducativo interativo baseado no livro [*Emocionário*](https://sextante.com.br/products/emocionario) — um dicionário ilustrado de emoções que ajuda crianças e adultos a reconhecer, nomear e compreender o que sentem.
 
-## Desenvolvimento
+**Site publicado:** [gabrieldep.github.io/emocionario](https://gabrieldep.github.io/emocionario/)
 
-```bash
-npm install
-npm run dev
-```
+---
 
-Abra [http://localhost:5173/emocionario/](http://localhost:5173/emocionario/) no navegador.
+## Sobre o livro
 
-## Build e preview
+*Emocionário* (*Emocionario*, no original) é um dicionário de 42 emoções. Cada entrada traz uma ilustração, uma definição em linguagem acessível e perguntas reflexivas que convidam o leitor a pensar sobre causas, efeitos e conexões entre os sentimentos.
 
-```bash
-npm run build
-npm run preview
-```
+A proposta de leitura do livro sugere seguir a ordem natural em que as emoções se relacionam — da **Ternura** à **Gratidão** —, mas também convida a começar por qualquer emoção que faça mais sentido no momento.
 
-## Deploy (GitHub Pages)
+Este site reproduz fielmente esse conteúdo: definições, perguntas reflexivas, créditos dos ilustradores e navegação entre emoções relacionadas (próxima emoção, opostos e índice completo). Há ainda uma página com a **proposta de leitura** e o **prefácio** da psicóloga Rosa Collado Carrascosa.
 
-1. Faça push para a branch `main`.
-2. Em **Settings → Pages**, selecione **GitHub Actions** como source.
-3. O workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) publica automaticamente a pasta `dist/`.
+---
 
-URL esperada: `https://<usuario>.github.io/emocionario/`
+## Autores
 
-## Estrutura
+| | |
+|---|---|
+| **Textos** | Cristina Núñez Pereira e Rafael R. Valcárcel |
+| **Tradução (edição brasileira)** | Rafaella Lemos |
+| **Editora (Brasil)** | Sextante, 2018 |
+| **Projeto original** | [Palabras Aladas](https://palabrasaladas.com/emocionario.html) — *Di lo que sientes* |
 
-| Pasta | Descrição |
-|-------|-----------|
-| [`data/emocoes.json`](data/emocoes.json) | Conteúdo das 42 emoções |
-| [`img/`](img/) | Ilustrações (`{id}.jpg`) |
-| [`src/`](src/) | Aplicação frontend |
-| [`scripts/`](scripts/) | Geração de dados e extração de imagens do PDF |
+Cristina Núñez Pereira e Rafael R. Valcárcel criaram o *Emocionário* como material de apoio à educação emocional: identificar emoções, diferenciá-las e expressá-las com mais clareza — competências centrais da inteligência emocional.
 
-## Regenerar dados a partir do PDF
+---
 
-```bash
-python3 scripts/gerar_emocoes.py
-python3 scripts/extrair_imagens.py
-```
+## Ilustrações
+
+As 42 emoções do livro são acompanhadas por ilustrações originais, cada uma assinada por um artista diferente. Entre os ilustradores estão Nancy Brajer, Nella Gatica, Bela Oviedo, Javier González Burgos, Tofi, Federico Combi, Luciana Feito, Keki un puntito e muitos outros — conforme indicado no sumário da obra.
+
+Neste site, as imagens são servidas a partir da pasta [`img/`](img/), uma por emoção (`alivio.jpg`, `tristeza.jpg`, etc.), extraídas da edição em PDF do livro.
+
+> **Direitos autorais:** textos © Cristina Núñez Pereira e Rafael R. Valcárcel; ilustrações © os artistas indicados no sumário. Este projeto é de caráter psicoeducativo e pessoal. O código-fonte do site é open source; o conteúdo editorial e visual do livro não é.
+
+---
+
+## Motivação deste projeto
+
+Sentir é parte essencial da experiência humana — mas muitas vezes falta vocabulário para descrever o que acontece por dentro. O *Emocionário* preenche essa lacuna com delicadeza e rigor pedagógico.
+
+Este site nasceu da vontade de tornar esse material **acessível na web**: consultável, pesquisável e navegável, com a mesma experiência de leitura do livro, porém em formato digital e gratuito para quem quiser explorar.
+
+Funcionalidades do site:
+
+- **Índice** com busca por nome entre as 42 emoções
+- **Página de detalhe** com ilustração, definição e perguntas reflexivas
+- **Navegação híbrida** — próxima emoção (jornada do livro), emoção oposta e retorno ao índice
+- **Página introdutória** com proposta de leitura e prefácio
+
+---
+
+## As 42 emoções
+
+Ternura · Amor · Ódio · Raiva · Irritação · Tensão · Alívio · Serenidade · Felicidade · Alegria · Tristeza · Compaixão · Remorso · Culpa · Vergonha · Insegurança · Timidez · Confusão · Medo · Perplexidade · Aversão · Hostilidade · Aceitação · Incompreensão · Desamparo · Solidão · Saudade · Melancolia · Tédio · Expectativa · Entusiasmo · Euforia · Desalento · Decepção · Frustração · Admiração · Inveja · Desejo · Satisfação · Orgulho · Prazer · Gratidão
+
+---
+
+## Desenvolvimento e deploy
+
+Instruções para rodar localmente, fazer build, publicar no GitHub Pages e regenerar os dados a partir do PDF:
+
+**[Guia de desenvolvimento →](docs/desenvolvimento.md)**
+
+---
 
 ## Licença
 
-Código sob MIT — ver [LICENSE](LICENSE). Textos e ilustrações do livro permanecem protegidos por direitos autorais dos autores e artistas originais.
+Código-fonte deste repositório: [MIT](LICENSE).
+
+Conteúdo textual e ilustrativo: © autores e artistas do livro *Emocionário*, conforme créditos da edição Sextante (2018).
