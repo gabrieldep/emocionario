@@ -70,6 +70,10 @@ a:hover {
   outline-offset: 2px;
 }
 
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

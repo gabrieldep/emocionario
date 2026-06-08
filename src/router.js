@@ -35,6 +35,8 @@ export function homePath() {
 }
 
 export function initRouter(app) {
+  let isInitialLoad = true;
+
   async function handleRoute() {
     const route = parseHash();
     const render = routes[route.name];
@@ -52,9 +54,10 @@ export function initRouter(app) {
         : "Emocionário";
 
     const conteudo = app.querySelector("#conteudo");
-    if (conteudo) {
+    if (conteudo && !isInitialLoad) {
       conteudo.focus({ preventScroll: true });
     }
+    isInitialLoad = false;
   }
 
   window.addEventListener("hashchange", handleRoute);
